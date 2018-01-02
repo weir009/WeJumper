@@ -18,7 +18,8 @@ A python script, use "pygame + adb" to control WeChat applet "jump".
 3. 用鼠标左键标出两个点（从哪里，要跳到哪里），然后右键点击
 4. 等待几秒钟，看到新界面，重复3
 
+其他：键盘上下键可以调节跳跃长度所乘的因子，可根据实际情况调节。
+
 
 ![UI](ui.png?raw=true "界面")
-
 
