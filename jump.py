@@ -74,9 +74,10 @@ class Jumper:
 						self.end = None
 						
 				if event.button == 3  and self.start and self.end:
-					# 鼠标右键点跳
-					self.touch(  (abs(self.start[0] - self.end[0]) ** 2 + abs(self.start[1] - self.end[1]) ** 2)**0.5 )
+					# 鼠标右键点跳处理
+					self.touch( pygame.math.Vector2(self.start).distance_to(self.end) )
 					
+					# 重新加载截图
 					img = pygame.image.load('screenshot.png')
 					self.back = pygame.transform.scale(img, SCREENRECT[2:])
 					
