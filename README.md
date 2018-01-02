@@ -1,4 +1,6 @@
 # WeJumper
+A python script, use "pygame + adb" to control WeChat applet "jump".
+
 微信小程序“跳一跳”的外挂，需要Android手机，在PC上控制，理论上PyGame支持的平台都可以。
 
 “跳一跳”这个小程序玩起来实在上瘾，为了戒瘾，花了一个多小时写了个程序半自动地玩，从此想要多少分就可以多少分了，也就不再惦记玩了。
